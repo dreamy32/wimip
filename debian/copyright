@@ -1,9 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: wimip
-Source: https://github.com/YOUR_USERNAME/wimip
+Source: https://github.com/dreamy32/wimip
 
 Files: *
-Copyright: 2025 YOUR_NAME
+Copyright: 2025 David Berube
 License: MIT
 
 License: MIT

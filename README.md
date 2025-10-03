@@ -15,7 +15,7 @@ A simple command-line tool to display your public IP address, local IP address, 
 ### Quick Install (Linux)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/dreamy32/wimip/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/dreamy32/wimip/main/install.sh | sudo bash
 ```
 
 Or manually:
@@ -34,22 +34,24 @@ sudo ./install.sh
 # Coming soon
 ```
 
-#### Fedora/RHEL/CentOS (DNF/YUM)
+#### Fedora/RHEL/CentOS/Rocky Linux (DNF/YUM)
 
 Download and install the RPM package from the [latest release](https://github.com/dreamy32/wimip/releases/latest):
 
 ```bash
 # Download the RPM
-wget https://github.com/dreamy32/wimip/releases/download/v1.0.0/wimip-1.0.0-1.fc42.noarch.rpm
+wget https://github.com/dreamy32/wimip/releases/download/v1.0.1/wimip-1.0.1-1.fc42.noarch.rpm
 
 # Install
-sudo dnf install ./wimip-1.0.0-1.fc42.noarch.rpm
+sudo dnf install ./wimip-1.0.1-1.fc42.noarch.rpm
 ```
 
 Or using `rpm`:
 ```bash
-sudo rpm -ivh wimip-1.0.0-1.fc42.noarch.rpm
+sudo rpm -ivh wimip-1.0.1-1.fc42.noarch.rpm
 ```
+
+**Note:** Despite the `.fc42` naming, this is a pure bash script package (noarch) and works on all Fedora, RHEL, CentOS, AlmaLinux, and Rocky Linux versions.
 
 ### Manual Installation
 

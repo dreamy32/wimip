@@ -1,10 +1,10 @@
 Source: wimip
 Section: net
 Priority: optional
-Maintainer: YOUR_NAME <your.email@example.com>
+Maintainer: David Berube <davidberube2003@outlook.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
-Homepage: https://github.com/YOUR_USERNAME/wimip
+Homepage: https://github.com/dreamy32/wimip
 
 Package: wimip
 Architecture: all

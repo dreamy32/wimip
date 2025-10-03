@@ -1,3 +1,10 @@
+wimip (1.0.1) unstable; urgency=low
+
+  * Add compatibility documentation for RPM packages
+  * Clarify cross-version compatibility in package description
+
+ -- David Berube <davidberube2003@outlook.com>  Fri, 03 Oct 2025 19:00:00 +0000
+
 wimip (1.0.0) unstable; urgency=low
 
   * Initial release
@@ -5,4 +12,4 @@ wimip (1.0.0) unstable; urgency=low
   * Display local IP address
   * Display geographic location
 
- -- YOUR_NAME <your.email@example.com>  Fri, 03 Oct 2025 12:00:00 +0000
+ -- David Berube <davidberube2003@outlook.com>  Fri, 03 Oct 2025 12:00:00 +0000
