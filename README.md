@@ -15,13 +15,13 @@ A simple command-line tool to display your public IP address, local IP address, 
 ### Quick Install (Linux)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/wimip/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/dreamy32/wimip/main/install.sh | bash
 ```
 
 Or manually:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/wimip.git
+git clone https://github.com/dreamy32/wimip.git
 cd wimip
 sudo ./install.sh
 ```
@@ -36,15 +36,26 @@ sudo ./install.sh
 
 #### Fedora/RHEL/CentOS (DNF/YUM)
 
+Download and install the RPM package from the [latest release](https://github.com/dreamy32/wimip/releases/latest):
+
 ```bash
-# Coming soon
+# Download the RPM
+wget https://github.com/dreamy32/wimip/releases/download/v1.0.0/wimip-1.0.0-1.fc42.noarch.rpm
+
+# Install
+sudo dnf install ./wimip-1.0.0-1.fc42.noarch.rpm
+```
+
+Or using `rpm`:
+```bash
+sudo rpm -ivh wimip-1.0.0-1.fc42.noarch.rpm
 ```
 
 ### Manual Installation
 
 1. Download the script:
    ```bash
-   wget https://raw.githubusercontent.com/YOUR_USERNAME/wimip/main/wimip
+   wget https://raw.githubusercontent.com/dreamy32/wimip/main/wimip
    ```
 
 2. Make it executable:
@@ -87,6 +98,14 @@ These tools are typically pre-installed on most Linux distributions.
 
 ## Uninstall
 
+**If installed via RPM:**
+```bash
+sudo dnf remove wimip
+# or
+sudo rpm -e wimip
+```
+
+**If installed via install.sh:**
 ```bash
 sudo rm /usr/local/bin/wimip
 ```
@@ -101,4 +120,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
-Created by YOUR_NAME
+Created by David Berube
