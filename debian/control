@@ -1,0 +1,14 @@
+Source: wimip
+Section: net
+Priority: optional
+Maintainer: YOUR_NAME <your.email@example.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/YOUR_USERNAME/wimip
+
+Package: wimip
+Architecture: all
+Depends: curl, iproute2 | net-tools
+Description: Display your public IP, local IP, and location
+ wimip is a simple command-line tool that displays your public IP address,
+ local IP address, and geographic location with color-coded output.

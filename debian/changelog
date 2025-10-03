@@ -1,0 +1,8 @@
+wimip (1.0.0) unstable; urgency=low
+
+  * Initial release
+  * Display public IP address
+  * Display local IP address
+  * Display geographic location
+
+ -- YOUR_NAME <your.email@example.com>  Fri, 03 Oct 2025 12:00:00 +0000

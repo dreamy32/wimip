@@ -1,0 +1,10 @@
+*.deb
+*.rpm
+*.tar.gz
+debian/files
+debian/.debhelper/
+debian/wimip/
+debian/wimip.debhelper.log
+debian/wimip.substvars
+obj-*/
+.pc/
